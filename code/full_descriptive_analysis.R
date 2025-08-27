@@ -12,6 +12,7 @@ project_name <- "beach_soccer_example"
 
 # Helper function to construct full output path
 make_output_path <- function(filename) {
+  if (!dir.exists(output_dir)) dir.create(output_dir)
   file.path(output_dir, paste0(project_name, "_", filename))
 }
 
