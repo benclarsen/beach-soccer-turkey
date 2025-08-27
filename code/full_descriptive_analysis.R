@@ -643,3 +643,4 @@ generate_table_2(
   output_path = make_output_path("table_2_ma_training.xlsx")
 )
 
+
