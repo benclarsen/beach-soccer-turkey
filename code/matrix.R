@@ -234,7 +234,7 @@ matrix_plot # view plot
 
 
 # Save the final plot as a PNG file with specified dimensions and resolution.
-png("results/risk_matrix_futsal.png", width=8,height=8 ,units="cm" ,res=600)
+png("results/risk_matrix_beach_soccer.png", width=8,height=8 ,units="cm" ,res=600)
 
 print(matrix_plot)   # Print the plot to the PNG device 
 

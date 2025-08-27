@@ -5,7 +5,7 @@
 
 
 #For analyses of example data (available on GitHub)
-output_dir <- "results/example" # for example data
+output_dir <- "example_results" # for example data
 project_name <- "beach_soccer_example"
 
 

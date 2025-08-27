@@ -10,11 +10,10 @@ However, the `data/` folder includes example data with a similar structure, whic
 
 #Repository Structure
 
-├── data/                  # Example data files (anonymized or simulated) and osiics cl-15 classifications
+├── data/               # Example data files (anonymized or simulated) and osiics cl-15 classifications
 ├── code/               # R analysis scripts
-├── results/              # outputs (figures, tables) from analysis of real data (no personal sensitive data)
-├── results/example          # outputs (figures, tables) from analysis of example data 
-├── README.md              # This file
+├── example_results/    # Outputs (figures, tables) from analysis of example data 
+├── README.md           # This file
 
 #Requirements
 
