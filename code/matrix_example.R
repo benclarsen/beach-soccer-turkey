@@ -209,8 +209,8 @@ matrix_plot <- ggplot(matrix_data, aes(x = x, y = y)) +
                   family="Open Sans") +
   
   # Format axes with specified limits and breaks  
-  scale_x_continuous(expand=c(0 ,0), limits=c(0 ,xlim), breaks=seq(0 ,xlim ,by=1), name="Incidence rate (per 1000 h)") +  # ADAPT TO DATA
-  scale_y_continuous(expand=c(0 ,0), limits=c(0 ,ylim), breaks=seq(0 ,ylim ,by=5), name="Average time loss (days)") +  # ADAPT TO DATA
+  scale_x_continuous(expand=c(0 ,0), limits=c(0 ,xlim), breaks=seq(0 ,xlim ,by=0.25), name="Incidence rate (per 1000 h)") +  # ADAPT TO DATA
+  scale_y_continuous(expand=c(0 ,0), limits=c(0 ,ylim), breaks=seq(0 ,ylim ,by=20), name="Average time loss (days)") +  # ADAPT TO DATA
   
   # Define theme settings for aesthetics and layout 
   theme_void() +   # Start with a void theme (no gridlines or axes)
